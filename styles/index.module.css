@@ -1,0 +1,35 @@
+
+  
+.background_img {
+    position: relative;
+    text-align: center;
+    background-image: url('/images/flowers-compress.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center top;
+    padding: 12% 0px;
+    opacity: 0.8;
+}
+
+.blog_hr {
+    width: 4rem !important;
+    height: 3px !important;
+    margin: auto !important;
+}
+
+.span_date {
+    position: absolute;
+    bottom: 5px;
+    font-size: 0.9rem;
+    color: gray;
+}
+
+.btn_read_more {
+    position: absolute;
+    right: 15px;
+    bottom: 10px;
+}
+
+.post_body {
+    width: 95%;
+}
