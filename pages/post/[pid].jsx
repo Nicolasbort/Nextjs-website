@@ -23,8 +23,6 @@ const Post = () => {
       </div>
     </Layout>
   )
-  
-  // return <p>Post: {pid}</p>
 }
 
 export default Post

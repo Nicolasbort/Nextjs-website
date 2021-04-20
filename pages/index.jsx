@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import Layout, { siteTitle } from '../components/layout'
 import Link from 'next/link'
-import { signIn, signOut, useSession } from 'next-auth/client'
+// import { signIn, signOut, useSession } from 'next-auth/client'
 import homeStyles from '../styles/index.module.css'
 import { getSortedPostsData } from '../lib/posts'
 
@@ -15,7 +15,7 @@ export async function getStaticProps() {
 }
 
 export default function Home({ allPostsData }) {
-  const [ session, loading ] = useSession()
+  // const [ session, loading ] = useSession()
 
 
   return (
@@ -24,7 +24,7 @@ export default function Home({ allPostsData }) {
         <title>{siteTitle}</title>
       </Head>
 
-
+{/* 
       {
       !session && <>
       Not signed in <br/>
@@ -36,7 +36,7 @@ export default function Home({ allPostsData }) {
       Signed in as {session.user.email} <br/>
       <button onClick={() => signOut()}>Sign out</button>
       </>
-      }
+      } */}
 
       <div className={`${homeStyles.background_img} text-white`}>
             <div className="container">
